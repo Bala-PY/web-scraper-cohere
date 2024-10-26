@@ -10,11 +10,11 @@ import schedule
 # Initialize Flask app
 app = Flask(__name__)
 
-# Store scraped data in memory (list of dictionaries)
+# Store scraped data in memory (list of dictionaries) 
 scraped_data = []
 
 # Set your Cohere API key
-COHERE_API_KEY = 'vZn4OPBYW69OjAlAV89xyo4HJ7yZWXxCW9Hpy9aE'
+COHERE_API_KEY = 'Enter your Cohere API key here'
 
 # Scrape data function
 def scrape_myntra_electronics():
